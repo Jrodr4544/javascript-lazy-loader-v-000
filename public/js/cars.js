@@ -10,7 +10,6 @@ function formatCars(carsJSON) {
   // to format three cars, each in a div with a class "col-md-4", in a 
   // div with a class "row"
 var html = "<div class=\"row\">";
-var i = 0;
 
 $.each(carsJSON, function(index, car){
     html+= "<div class=\"col-md-4 car\">";
