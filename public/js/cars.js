@@ -12,7 +12,7 @@ function formatCars(carsJSON) {
 var html = "<div class=\"row\">";
 var i = 0;
 
-  while(i <= carsJSON.length){
+$.each(carsJSON,)
     html+= "<div class=\"col-md-4 car\">";
     html+='<h2>'+carsJSON[i]["Make"]+'</h2>';
     html+='<p><strong>Model:</strong> '+carsJSON[i]["Model"]+'</p>';
