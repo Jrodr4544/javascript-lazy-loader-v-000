@@ -9,7 +9,7 @@ function formatCars(carsJSON) {
   // refer to app/views/index.erb lines 16 - 22 for an example of how
   // to format three cars, each in a div with a class "col-md-4", in a 
   // div with a class "row"
-var html = `<div class="row">`;
+var html = "<div class=\"row\">";
 var i = 0;
 
   while(i <= carsJSON.length){
