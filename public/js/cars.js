@@ -1,7 +1,7 @@
 "use strict";
 
 // this is the base API url
-var pageNum = 3;
+var pageNum = 1;
 var baseUrl = "https://mimeocarlisting.azurewebsites.net/api/cars/";
 
 function formatCars(carsJSON) {
