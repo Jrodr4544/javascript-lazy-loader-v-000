@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="3" errors="0" failures="1" time="2.232" timestamp="2018-06-09T23:16:02">
+		<testcase classname="Cars" name="formatCars turns car JSON into Bootstrapped HTML" time="0.007">
+		</testcase>
+		<testcase classname="Cars" name="addCarsToDOM accepts JSON, sends it to formatCars(), and adds return HTML to page" time="0.009">
+		</testcase>
+		<testcase classname="Cars" name="fetchJSON queries API for the correct listing and passes returned data to addCarsToDOM()" time="2.213">
+			<failure type="toEqual" message="Expected &amp;apos;Chrysler&amp;apos; not to equal &amp;apos;Chrysler&amp;apos;.">
+stack@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1293:37
+buildExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1270:19
+expectationResultFactory@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:484:40
+addExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:260:70
+addExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:442:41
+file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1209:32
+file:///home/Jrodr4544/javascript-lazy-loader-v-000/spec/01-jasmine/cars-spec.js:55:54			</failure>
+			<failure type="toEqual" message="Expected &amp;apos;Chrysler&amp;apos; to equal &amp;apos;Mercedes-Benz&amp;apos;.">
+stack@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1293:37
+buildExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1270:19
+expectationResultFactory@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:484:40
+addExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:260:70
+addExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:442:41
+file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1209:32
+file:///home/Jrodr4544/javascript-lazy-loader-v-000/spec/01-jasmine/cars-spec.js:56:50			</failure>
+			<failure type="toEqual" message="Expected &amp;apos;Model: 300&amp;apos; to equal &amp;apos;Model: C-Class&amp;apos;.">
+stack@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1293:37
+buildExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1270:19
+expectationResultFactory@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:484:40
+addExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:260:70
+addExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:442:41
+file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1209:32
+file:///home/Jrodr4544/javascript-lazy-loader-v-000/spec/01-jasmine/cars-spec.js:57:50			</failure>
+			<failure type="toEqual" message="Expected &amp;apos;Year: 2005&amp;apos; to equal &amp;apos;Year: 2014&amp;apos;.">
+stack@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1293:37
+buildExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1270:19
+expectationResultFactory@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:484:40
+addExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:260:70
+addExpectationResult@file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:442:41
+file:///home/Jrodr4544/javascript-lazy-loader-v-000/tmpTestSupport/jasmine.js:1209:32
+file:///home/Jrodr4544/javascript-lazy-loader-v-000/spec/01-jasmine/cars-spec.js:58:53			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
+
