@@ -18,7 +18,6 @@ $.each(carsJSON, function(index, car){
     html+='<p><strong>Model:</strong> '+car.Model+'</p>';
     html+='<p><strong>Year:</strong> '+car.Year+'</p>';
     html+='</div>';
-    i++;
   });
 
   html += '</div>';
